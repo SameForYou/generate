@@ -69,10 +69,10 @@ A lambda expression's result object is a [closure](https://en.wikipedia.org/wiki
 ```cpp
 int multiplier = 5;
 auto timesFive = [multiplier](int a) { return a * multiplier; }; 
-std::out << timesFive(2); // Prints 10
+std::cout << timesFive(2); // Prints 10
 
 multiplier = 15;
-std::out << timesFive(2); // Still prints 2*5 == 10
+std::cout << timesFive(2); // Still prints 2*5 == 10
 
 ```
 
